@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/backgraoud"
+
+    android:gravity="right"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="sans-serif-light"
+
+        android:gravity="center"
+        android:text="Protect Your Loved ones At Your Fingertips"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp" />
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/textbox_shap"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+
+        <EditText
+            android:id="@+id/passWord"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/textbox_shap"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="PassWord"
+            android:inputType="textPassword"
+            android:padding="5dp">
+
+        </EditText>
+        <TextView
+            android:id="@+id/forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="10dp"
+            android:text="Forget password?"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/Registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="5dp"
+            android:text="Registration"
+            android:textSize="17sp" />
+        <Button
+                android:id="@+id/login"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+                android:background="@drawable/shap1"
+                android:fontFamily="sans-serif-light"
+                android:text="Login"
+            android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/y3"
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:text="Saudi Arabia"
+        android:textSize="17sp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+

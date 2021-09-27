@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vmsfsi">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/child"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/l"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChangePassword"></activity>
+        <activity android:name=".Validate_Code" />
+        <activity android:name=".Validation_Email" />
+        <activity android:name=".Monitoring" />
+        <activity android:name=".Monitoring_Device" />
+        <activity android:name=".Baby_profile" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Register_page" />
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main_page" />
+        <activity android:name=".menu" />
+    </application>
+
+</manifest>

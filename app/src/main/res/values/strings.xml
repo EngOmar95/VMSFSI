@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VMSFSI</string>
+    <string name="Invalid_Password">The password must contain 8 digits of numbers, letters and symbols</string>
+    <string name="Invalid_ConfPassword">The password does not match</string>
+    <string name="Invalid_Emil">The ُEmil is not correct</string>
+    <string name="Invalid">Field is required</string>
+    <string name="p_about_us">A group of students that wanted to achieve a helpful goal and developed an application where parents could keep an eye on their little loved ones from a fatal situation by using a vomit monitoring system.</string>
+    <string name="titil_about_us">About us :</string>
+    <string name="API_key">47172024</string>
+</resources>

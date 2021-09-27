@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@color/backgraoud"
+
+    android:gravity="right"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                            android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/Red"
+                android:text="*" />
+            <TextView
+                android:id="@+id/textView"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Full_Name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/textbox_shap"
+
+            android:ems="10"
+            android:gravity="left"
+
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tmkextView2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/Red"
+                android:text="*" />
+            <TextView
+                android:id="@+id/textVie1w"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/User_Name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/textbox_shap"
+
+            android:ems="10"
+            android:gravity="left"
+
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/Red"
+                android:text="*" />
+            <TextView
+                android:id="@+id/textVisew"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/textbox_shap"
+
+            android:ems="10"
+            android:gravity="left"
+
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textVixew2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/Red"
+                android:text="*" />
+            <TextView
+                android:id="@+id/textcView"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Confirm_Password"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/textbox_shap"
+
+            android:ems="10"
+            android:gravity="left"
+
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textmView2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/Red"
+                android:text="*" />
+            <TextView
+                android:id="@+id/textVmiew"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:background="@drawable/textbox_shap"
+
+            android:ems="10"
+            android:gravity="left"
+
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+
+
+
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shap1"
+            android:fontFamily="sans-serif-light"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

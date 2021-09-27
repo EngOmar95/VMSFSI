@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Baby_profile">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="70dp"
+        app:cardElevation="0dp"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/imageBaby"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:cropToPadding="true"
+            android:isScrollContainer="false"
+            android:keepScreenOn="false"
+            android:overScrollMode="never"
+            android:saveEnabled="false"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/temnxtView"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Baby Name" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/babyName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textbox_shap"
+            android:ems="10"
+            android:enabled="false"
+
+            android:gravity="left"
+
+
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age (in months)" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/BabyAge"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textbox_shap"
+            android:ems="10"
+            android:enabled="false"
+
+            android:gravity="left"
+
+
+            android:inputType="number"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_info"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shap1"
+        android:fontFamily="sans-serif-light"
+        android:text="Edit profile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shap1"
+        android:fontFamily="sans-serif-light"
+        android:text="Save"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/GoToHome"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shap1"
+        android:fontFamily="sans-serif-light"
+        android:src="@drawable/ic_baseline_home_24"
+        android:text="Register"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:src="@drawable/ic_baseline_home_24" />
+
+</LinearLayout>
